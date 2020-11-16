@@ -1,0 +1,45 @@
+---
+layout: page
+---
+
+svg{
+	overflow: visible;
+}
+
+svg text {
+				 fill: black;
+				 font: 15px sans-serif;
+		 }
+
+body{
+  font-family: monospace;
+  margin: 0px;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.axis{
+  opacity: .5;
+}
+
+.line{
+  fill: none;
+  stroke: black;
+  stroke-width: 3;
+}
+
+
+.area{
+  fill: #eee;
+}
+
+.your-line{
+  stroke: #2b00ff;//#f0f; //#9FF781;
+  stroke-width: 3;
+  stroke-dasharray: 3 3;// 5 1 // 5 5
+}
